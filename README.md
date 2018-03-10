@@ -5,6 +5,7 @@ Our reproducibility package (data and scripts) for CD study. Its associated Dock
   * *Docker Hub:* https://hub.docker.com 
   * *Travis CI:* http://www.travis-ci.org/
   * *CircleCI:* http://circleci.com/
+  
   <img src="/Figures/dockerhub.png" alt="Drawing1" width="80"/><img src="/Figures/travisci.jpg" alt="Drawing2" width="100"/> <img src="/Figures/circleci.png" alt="Drawing3" width="100"/>
 
 ## 1. Survey
