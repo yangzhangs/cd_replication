@@ -3,13 +3,9 @@ Our reproducibility package (data and scripts) for CD study. Its associated Dock
 
 ## Our study targets
   * *Docker Hub:* https://hub.docker.com 
-  <img src="/Figures/dockerhub.png" alt="Drawing1" style="width: 20px;"/>
-  
   * *Travis CI:* http://www.travis-ci.org/
-  <img src="/Figures/travisci.jpg" alt="Drawing2" style="width: 20px;"/>
-  
   * *CircleCI:* http://circleci.com/
-  <img src="/Figures/circleci.png" alt="Drawing3" style="width: 20px;"/>
+  <img src="/Figures/dockerhub.png" alt="Drawing1" width="80"/><img src="/Figures/travisci.jpg" alt="Drawing2" width="100"/> <img src="/Figures/circleci.png" alt="Drawing3" width="100"/>
 
 ## 1. Survey
   *CD_Survey_questions.pdf:* our questionnaire.
