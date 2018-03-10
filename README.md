@@ -1,6 +1,11 @@
 # CD Replication package
 Our reproducibility package (data and scripts) for CD study. Its associated Docker image is: https://hub.docker.com/r/anonymouscd/cd_replication.
 
+## Our study targets
+  *Docker Hub:* https://hub.docker.com
+  *Travis CI:* http://www.travis-ci.org/
+  *CircleCI:* http://circleci.com/
+
 ## 1. Survey
   *CD_Survey_questions.pdf:* our questionnaire.
   
