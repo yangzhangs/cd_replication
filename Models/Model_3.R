@@ -34,9 +34,3 @@ model_3<- lmer(scale(log(nDockerfileChanges))~
 summary(model_3)
 anova(model_3)
 r.squaredGLMM(model_3)
-
-#We employ multiple hypothesis correction over all coefficient results,
-#to correct for false positives, using the Benjamini-Hochberg step-down procedure.
-pvec_all = summary(model_3)$coefficients[,5]
-pvec_corrected = p.adjust(pvec_all, "BH")
-pvec_corrected
