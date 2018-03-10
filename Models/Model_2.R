@@ -34,9 +34,3 @@ model_2<- lmer(scale(log(nErrorBuild))~
 summary(model_2)
 anova(model_2)
 r.squaredGLMM(model_2)
-
-#We employ multiple hypothesis correction over all coefficient results,
-#to correct for false positives, using the Benjamini-Hochberg step-down procedure.
-pvec_all = summary(model_2)$coefficients[,5]
-pvec_corrected = p.adjust(pvec_all, "BH")
-pvec_corrected
