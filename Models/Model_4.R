@@ -34,9 +34,3 @@ model_4<- lmer(scale(log(avgBuildLatency))~
 summary(model_4)
 anova(model_4)
 r.squaredGLMM(model_4)
-
-#We employ multiple hypothesis correction over all coefficient results,
-#to correct for false positives, using the Benjamini-Hochberg step-down procedure.
-pvec_all = summary(model_4)$coefficients[,5]
-pvec_corrected = p.adjust(pvec_all, "BH")
-pvec_corrected
