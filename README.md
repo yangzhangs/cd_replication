@@ -1,5 +1,5 @@
-# cd_replication
-Our reproducibility package (data and scripts) for CD study.
+# CD Replication package
+Our reproducibility package (data and scripts) for CD study. Its associated Docker image is: https://hub.docker.com/r/anonymouscd/cd_replication.
 
 ## 1. Survey
   *CD_Survey_questions.pdf:* our questionnaire.
@@ -14,6 +14,7 @@ Our reproducibility package (data and scripts) for CD study.
   * *circle_ci_builds_info.csv:* Circle CI builds
   #### c. Dockerfile history data
   *dockerfile_changes_info.csv:* project name, file path, modified date, lines, linter issues, and base image info.
+  
 ### B. Models
   Data tables and R scripts.
   
