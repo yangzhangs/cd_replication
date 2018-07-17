@@ -1,5 +1,6 @@
 # CD Replication package
-Our reproducibility package (data and scripts) for CD study. Its associated Docker image is: https://hub.docker.com/r/anonymouscd/cd_replication. For now, we use Docker Hub auto-builds.
+Our reproducibility package (data and scripts) for CD study. Previous name is: Anonymous-cd/cd_replication. 
+Its associated Docker image is: https://hub.docker.com/r/anonymouscd/cd_replication. For now, we use Docker Hub auto-builds.
 
 ## Our study targets
   * *Docker Hub:* https://hub.docker.com 
